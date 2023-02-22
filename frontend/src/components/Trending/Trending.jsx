@@ -17,12 +17,18 @@ const Trending = () => {
         <div id={classes["collection-animals"]} className={classes["collection-sections"]}>
           <img
             className={classes["primary-photo"]}
-            src={require("../../assets/photos/PrimaryPhoto.png")}
+            src={require("../../assets/photos/trending/animals/animals-primary.svg").default}
             alt="PrimaryPhoto"
           />
           <div className={classes.cards}>
-            <img src={require("../../assets/photos/SecondaryPhoto_1.png")} alt="SecondaryPhoto_1" />
-            <img src={require("../../assets/photos/SecondaryPhoto_2.png")} alt="SecondaryPhoto_1" />
+            <img
+              src={require("../../assets/photos/trending/animals/animals-secondary-1.svg").default}
+              alt="SecondaryPhoto_1"
+            />
+            <img
+              src={require("../../assets/photos/trending/animals/animals-secondary-2.svg").default}
+              alt="SecondaryPhoto_2"
+            />
             <div className={classes.more}>
               <h1>1025+</h1>
             </div>
@@ -36,12 +42,18 @@ const Trending = () => {
         <div id={classes["collection-mushrooms"]} className={classes["collection-sections"]}>
           <img
             className={classes["primary-photo"]}
-            src={require("../../assets/photos/PrimaryPhoto.png")}
+            src={require("../../assets/photos/trending/shrooms/shrooms-primary.svg").default}
             alt="PrimaryPhoto"
           />
           <div className={classes.cards}>
-            <img src={require("../../assets/photos/SecondaryPhoto_1.png")} alt="SecondaryPhoto_1" />
-            <img src={require("../../assets/photos/SecondaryPhoto_2.png")} alt="SecondaryPhoto_1" />
+            <img
+              src={require("../../assets/photos/trending/shrooms/shrooms-secondary-1.svg").default}
+              alt="SecondaryPhoto_1"
+            />
+            <img
+              src={require("../../assets/photos/trending/shrooms/shrooms-secondary-2.svg").default}
+              alt="SecondaryPhoto_1"
+            />
             <div className={classes.more}>
               <h1>1025+</h1>
             </div>
@@ -55,12 +67,12 @@ const Trending = () => {
         <div id={classes["collection-disco"]} className={classes["collection-sections"]}>
           <img
             className={classes["primary-photo"]}
-            src={require("../../assets/photos/PrimaryPhoto.png")}
+            src={require("../../assets/photos/trending/disco/disco-primary.svg").default}
             alt="PrimaryPhoto"
           />
           <div className={classes.cards}>
-            <img src={require("../../assets/photos/SecondaryPhoto_1.png")} alt="SecondaryPhoto_1" />
-            <img src={require("../../assets/photos/SecondaryPhoto_2.png")} alt="SecondaryPhoto_1" />
+            <img src={require("../../assets/photos/trending/disco/disco-secondary-1.svg").default} alt="SecondaryPhoto_1" />
+            <img src={require("../../assets/photos/trending/disco/disco-secondary-2.svg").default} alt="SecondaryPhoto_1" />
             <div className={classes.more}>
               <h1>1025+</h1>
             </div>

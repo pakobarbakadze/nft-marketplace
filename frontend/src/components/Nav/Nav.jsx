@@ -4,7 +4,7 @@ import classes from "./Nav.module.css";
 
 import Logo from "../../assets/icons/Logo.svg";
 
-import { ReactComponent as User_icon } from "../../assets/icons/User.svg";
+import { ReactComponent as UserIcon } from "../../assets/icons/User.svg";
 
 const Nav = () => {
   const [isActive, setIsActive] = useState(false);
@@ -19,7 +19,7 @@ const Nav = () => {
           <li>Connect a wallet</li>
           <li>
             <button>
-              <User_icon /> Sign up
+              <UserIcon /> Sign up
             </button>
           </li>
         </ul>

@@ -9,7 +9,7 @@ import classes from "./NFTCard.module.css";
 const NFTCard = ({ nft }) => {
   return (
     <div className={classes.container}>
-      <img className={classes["nft-img"]} src={require(`../../assets/photos/nfts/${nft.img}.png`)} alt="nft" />
+      <img className={classes["nft-img"]} src={require(`../../assets/photos/nfts/${nft.img}.svg`)} alt="nft" />
       <div className={classes.info}>
         <h1>{nft.name}</h1>
         <Artist avatar={Avatar} name={"username"}></Artist>

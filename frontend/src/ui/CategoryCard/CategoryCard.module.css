@@ -1,6 +1,4 @@
 .container {
-  background: #3b3b3b;
-  border-radius: 20px;
   flex: 0 1 calc(50% - 10px);
   cursor: pointer;
 }
@@ -10,9 +8,13 @@
 }
 
 .container h1 {
-  margin: 20px 0 20px 15px;
+  padding: 20px 0 20px 15px;
   font-size: 1rem;
   font-weight: 400;
+  background: var(--bg-clr-secondary);
+  margin-top: -3px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 @media screen and (min-width: 600px) {
